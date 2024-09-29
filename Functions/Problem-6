@@ -1,1 +1,29 @@
+#include <stdio.h>
+
+// Function to calculate sum
+int calculateSumInFunction(int n) {
+    int sum = 0, num;
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &num);
+        sum += num;
+    }
+    printf("Sum In Function: %d\n", sum);
+    return sum;
+}
+
+int main() {
+    int n, sumInMain;
+
+    // Read the number of elements
+    printf("Enter the number of elements: ");
+    scanf("%d", &n);
+
+    // Call the function to calculate sum
+    sumInMain = calculateSumInFunction(n);
+
+    // Print the sum in main
+    printf("Sum In Main: %d\n", sumInMain);
+
+    return 0;
+}
 
