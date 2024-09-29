@@ -1,1 +1,27 @@
+#include <stdio.h>
+
+void check(int a, int b)
+{
+    if (a > b)
+    {
+
+        printf("%d is gretaer than %d", a, b);
+    }
+    else if (b > a)
+    {
+        printf("%d is less than %d", a, b);
+    }
+    else
+        printf("%d is equal than %d", a, b);
+}
+
+int main()
+{
+
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    check(a, b);
+}
 
