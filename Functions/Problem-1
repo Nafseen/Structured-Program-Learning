@@ -1,1 +1,16 @@
+#include<stdio.h>
 
+
+void printmsg(char str[]){
+
+     printf("%s\P", str);
+}
+
+int main() {
+
+        char str[]="This is a function";
+        printmsg(str);
+
+
+
+}
